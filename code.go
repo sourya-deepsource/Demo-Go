@@ -5,8 +5,8 @@ import (
 	"errors"
 	"fmt"
 	"io/ioutil"
-	"strings"
 	"os"
+	"strings"
 )
 
 type GenericInterface interface {
