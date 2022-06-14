@@ -28,8 +28,8 @@ func main() {
 		fmt.Println(i.(Seller).DeliversTo(givenCity))
 	}
 	
-	s := ""
-	if len(s[:]) == 0 {
+	someStr := ""
+	if len(someStr[:]) == 0 {
 		fmt.Println("lol")
 	}
 }
