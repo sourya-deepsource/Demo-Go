@@ -40,7 +40,7 @@ func appendData() {
 	s = append(s, sellerPath)
 
 	someStr := ""
-	if len(someStr[:]) == 0 {
+	if someStr[:] == "" {
 		fmt.Println("lol")
 	}
 }
