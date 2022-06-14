@@ -27,6 +27,11 @@ func main() {
 	case Seller:
 		fmt.Println(i.(Seller).DeliversTo(givenCity))
 	}
+	
+	s := ""
+	if len(s[:]) == 0 {
+		fmt.Println("lol")
+	}
 }
 
 func appendData() {
