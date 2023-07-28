@@ -27,7 +27,7 @@ func main() {
 	case Seller:
 		fmt.Println(i.(Seller).DeliversTo(givenCity))
 	}
-	
+
 	someStr := ""
 	if len(someStr[:]) == 0 {
 		fmt.Println("lol")
