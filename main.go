@@ -27,7 +27,7 @@ func main() {
 	case Seller:
 		fmt.Println(i.(Seller).DeliversTo(givenCity))
 	}
-	
+
 	someStr := ""
 	if len(someStr[:]) == 0 {
 		fmt.Println("lol")
@@ -38,4 +38,9 @@ func appendData() {
 	var s []string
 	s = append(s, productPath)
 	s = append(s, sellerPath)
+
+	someStr := ""
+	if someStr[:] == "" {
+		fmt.Println("lol")
+	}
 }
